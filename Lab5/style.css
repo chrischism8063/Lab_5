@@ -116,10 +116,10 @@ header{
     display: flex;
     margin: 0%;
     padding: 0%;
-    height: 400px;
+    height: 100%;
     position: relative;
     margin-top: 10%;
-    /* top: 15%; */
+    clear: both;
 }
 
 .left{
@@ -134,8 +134,8 @@ header{
     width: 60%;
     background-color: blue;
     float: center;
-    padding: 0;
-    overflow: hidden;
+    padding: 15px;
+    overflow: initial;
 }
 
 .right{
@@ -144,6 +144,10 @@ header{
     float: right;
     overflow: hidden;
 
+}
+
+.footer_prep{
+    bottom: 10%;
 }
 
 .footer{
@@ -158,6 +162,7 @@ header{
     overflow: hidden;
     padding: 0%;
     background-color: greenyellow;
+    display: block;
 }
 
 .upper{
@@ -166,11 +171,14 @@ header{
     width: 100%;
     margin: 0;
     padding: 0;
+    display: box;
 }
 
 .split{
-    background-color: cadetblue;
-    position: relative;
-    top: 10%;
-    width: 100%
+    background-color: red;
+    /* position: fixed; */
+    /* display: inline-block; */
+    width: 100%;
+    padding: 10px;
+    top: 150px;
 }
