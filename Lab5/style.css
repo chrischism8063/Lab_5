@@ -9,7 +9,7 @@ body{
 ul{
     padding: 10px;
     display: inline-block;
-
+    overflow: auto;
 }
 
 ul li{
@@ -55,16 +55,9 @@ ul li a:visited{
 
 div{
     /* background-color: darkturquoise; */
-    padding: 10px;
+    /* padding: 10px; */
 }
 
-header{
-    background-color: slateblue;
-    padding: 10px;
-    text-align: center;
-    margin: 0%;
-    bottom: 15%;
-}
 
 header ul{
     font-size: 12px;
@@ -100,12 +93,33 @@ header ul{
 
 }
 
+.group li{
+    display: inline;
+
+}
+
+header{
+    background-color: slateblue;
+    padding: 10px;
+    text-align: center;
+    margin: 0%;
+    /* bottom: 15%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0px;
+    width: 100%;
+    overflow: hidden;
+    bottom: 75%;
+}
 .main{
     display: flex;
     margin: 0%;
     padding: 0%;
-    height: 600px;
+    height: 400px;
     position: relative;
+    margin-top: 10%;
+    /* top: 15%; */
 }
 
 .left{
